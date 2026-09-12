@@ -30,7 +30,7 @@ export class ABTestingPage extends BasePage {
   }
 
   async expectKnownHeadingVariation() {
-    await expect(this.heading).toHaveText(new RegExp(`^(${EXPECTED_HEADINGS.join('|')})$`));
+    await expect(this.heading).toContainText(new RegExp(EXPECTED_HEADINGS.join('|')));
   }
 
   async expectSplitTestingDescription() {

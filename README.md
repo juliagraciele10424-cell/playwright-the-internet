@@ -22,6 +22,8 @@ npm run test:e2e:ui
 npm run report
 ```
 
-## Primeiro fluxo coberto
+## Fluxos cobertos
 
 O teste `A/B Testing` acessa `https://the-internet.herokuapp.com/abtest`, valida que a pagina carregou, aceita as variacoes conhecidas do titulo do experimento e verifica o texto principal sobre split testing.
+
+O teste `Add/Remove Elements` acessa a pagina inicial, clica no link `Add/Remove Elements` e valida o redirecionamento para `https://the-internet.herokuapp.com/add_remove_elements/`.

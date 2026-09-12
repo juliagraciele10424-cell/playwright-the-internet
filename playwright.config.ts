@@ -16,6 +16,9 @@ export default defineConfig({
   ],
   use: {
     baseURL: 'https://the-internet.herokuapp.com',
+    launchOptions: {
+      slowMo: 3_000,
+    },
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',

@@ -1,0 +1,19 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "Projeto de automacao de testes com Playwright usando Page Objects, fixtures e componentes reutilizaveis.",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

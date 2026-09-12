@@ -4,6 +4,7 @@ Projeto de automacao de testes end-to-end usando Playwright, Page Objects, fixtu
 
 ## Estrutura
 
+- `AGENTS.md`: instrucoes para manter o padrao de arquitetura dos testes.
 - `tests/specs`: cenarios de teste.
 - `tests/pages`: Page Objects.
 - `tests/components`: componentes reutilizaveis entre paginas.
